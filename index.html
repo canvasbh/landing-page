@@ -23,12 +23,16 @@
         <h1 class="cover-heading">The best gift in the world</h1>
         <p class="lead">Coming soon to Bahrain.</p>
         <p class="lead">
-          <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <!-- Netlify will handle form submissions for us -->
+          <form name="anticipation" netlify>
+            <div class="form-row">
+              <div class="col-9">
+                <input type="email" class="form-control form-control-lg" placeholder="your@email.com" name="email">
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-lg btn-secondary">Let me know</a>
+              </div>
             </div>
-            <a href="#" class="btn btn-lg btn-secondary">Let me know</a>
           </form>
         </p>
       </main>
